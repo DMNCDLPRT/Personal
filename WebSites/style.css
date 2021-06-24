@@ -1,0 +1,53 @@
+body {
+    margin: 0px;
+    background-color: rgb(255, 255, 255);
+}
+
+.buttons nav ul a {
+    font: 600 15px sans-serif;
+}
+
+.style_logo{
+    height: 50px;
+    display: block;
+}
+
+.navigation {
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+.buttons nav ul li{
+    display: inline-block;
+    text-decoration: none;
+    padding: 28px;
+}
+
+.buttons nav ul {
+    margin: 0px;
+}
+
+.buttons nav ul a {
+    text-decoration: none;
+    color: white;
+}
+
+.buttons nav ul a:hover {
+    cursor: pointer;
+    color: rgb(50, 255, 50);
+}
+
+main {
+    font: 400 14px sans-serif;
+    text-align: center;
+}
+
+.heaading_img {
+    padding: 50px;
+    height: 610px;
+}
+
+.logo {
+    height: 30px;
+}
