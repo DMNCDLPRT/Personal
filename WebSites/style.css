@@ -87,6 +87,11 @@ dt a {
     color: white;
 }
 
+dt a:hover {
+    cursor: pointer;
+    color: rgb(50, 255, 50);
+}
+
 .bottom {
     display: flex;
     align-items: center;
