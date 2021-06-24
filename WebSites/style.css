@@ -82,6 +82,11 @@ dt {
     padding: 9px 0px 0px;
 }
 
+dt a {
+    text-decoration: none;
+    color: white;
+}
+
 .bottom {
     display: flex;
     align-items: center;
