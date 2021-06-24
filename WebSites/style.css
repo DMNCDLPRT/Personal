@@ -13,9 +13,13 @@ body {
 }
 
 .navigation {
-    width: 100%;
     background-color: black;
     color: white;
+    display: flex;
+    padding: 0px 80px;
+    display: flex;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
 }
 
 .buttons nav ul li{
@@ -26,6 +30,7 @@ body {
 
 .buttons nav ul {
     margin: 0px;
+    padding: 0px;
 }
 
 .buttons nav ul a {
@@ -49,5 +54,6 @@ main {
 }
 
 .logo {
-    height: 30px;
+    height: 56px;
+    padding: 9px;
 }
