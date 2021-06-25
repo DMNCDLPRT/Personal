@@ -52,8 +52,9 @@ main{
 }
 
 .heaading_img {
-    padding: 50px;
-    height: 610px;
+    padding: 80px;
+    margin:40px;
+    height: 330px;
 }
 
 .logo {
