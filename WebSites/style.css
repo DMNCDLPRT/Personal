@@ -116,7 +116,7 @@ main{
 }
 
 .title {
-    font: 20px sans-serif arial;
+    font: 20px sans-serif;
     text-transform: uppercase;
     font-weight: lighter;
 }
@@ -141,7 +141,7 @@ main{
 footer {
     background-color: rgb(0, 0, 0);
     color:white;
-    padding: 0px 80px;
+    padding: 0px 90px;
 }
 
 .foot {
