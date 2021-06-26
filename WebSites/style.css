@@ -1,6 +1,5 @@
 body {
     margin: 0px;
-    width: fit-content;
     background-color: rgb(255, 255, 255);
 }
 
@@ -11,6 +10,10 @@ body {
 .style_logo{
     height: 50px;
     display: block;
+}
+
+ul li:active, dt a {
+    transform: scale(0.98);
 }
 
 .navigation {
@@ -169,10 +172,63 @@ dt a {
 dt a:hover {
     cursor: pointer;
     color: rgb(50, 255, 50);
+    transform: scale(1.98);
 }
 
 .bottom {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+#support_main {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper {
+    padding: 20px 200px;
+    background-color: #f2f2f2;
+    border-radius: 25px;
+}
+
+.input_box_wrapper {
+    padding: 10px;
+}
+
+.input_box {
+    padding: 12px;
+    box-sizing: border-box;
+    border: 1px solid #9a9a9a;
+    outline: none;
+}
+
+.input_box:focus {
+    border: 1px solid rgb(50, 255, 50);
+}
+
+#comment, .input_box {
+    font: 14px sans-serif;
+}
+
+.submit {
+    width: 50%;
+    padding: 11px;
+    font-weight: bold;
+    cursor: pointer;
+    color: rgb(255 255 255);
+    background: black;
+    font: 500 19px Trebuchet MS, sans-serif;
+    border: none;
+}
+
+.submit:hover {
+    background: rgb(50, 255, 50);
+}
+
+.submit:active {
+    transform: scale(0.98);
 }
