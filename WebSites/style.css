@@ -12,7 +12,7 @@ body {
     display: block;
 }
 
-ul li:active, dt a {
+ul li:active, dt a, .button {
     transform: scale(0.98);
 }
 
@@ -80,24 +80,16 @@ main{
     padding: 100px 30px;
 }
 
-.bio .button{
-    padding: 15px;
-    background: yellow;
-    border-radius: 8px;   
-    border: 1px solid black;
-    position: relative;
+.button{
+    border: 1px solid yellow;
     transform: rotate(4deg);
-    right: 35px;
-    
-}
-
-.bio .button:hover {
-    zoom: 1.02;
-}
-
-.bio a {
-    text-decoration: none;
-    font: 500 15px sans-serif;
+    width: 10%;
+    padding: 11px;
+    right: 31px;
+    position: relative;
+    cursor: pointer;
+    background: rgb(255, 255, 255);
+    font: 14px sans-serif;
     color: black;
 }
 
@@ -174,6 +166,7 @@ dt a:hover {
     color: rgb(50, 255, 50);
     transform: scale(1.98);
 }
+
 
 .bottom {
     display: flex;
