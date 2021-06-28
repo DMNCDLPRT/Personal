@@ -174,7 +174,7 @@ dt a:hover {
     justify-content: center;
 }
 
-#support_main {
+#support_main, #blog {
     display: flex;
     height: 100vh;
     flex-direction: column;
@@ -225,3 +225,26 @@ dt a:hover {
 .submit:active {
     transform: scale(0.98);
 }
+
+.outer {
+    padding: 15px;
+}
+
+.construction {
+    font: 500 45px sans-serif;
+}
+
+.meter { 
+    height: 15px; 
+    position: relative;
+    background: #555;
+    padding: 5px;
+  }
+
+  .meter > span {
+    display: block;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    overflow: hidden;
+  }
