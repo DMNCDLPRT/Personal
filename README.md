@@ -1,2 +1,2 @@
 # Dmnc
-first
+This is my first personal website 
