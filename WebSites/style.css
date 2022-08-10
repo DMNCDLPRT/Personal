@@ -32,6 +32,19 @@ ul li:active, dt a, .button {
     padding: 28px;
 }
 
+.inherited-styles-for-exported-element {
+    color: #333;
+    font-family: CerebriSans-Regular, -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
+    font-size: 100%;
+  }
+  
+  h3 {
+    font-family: CerebriSans-Bold, -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
+    font-size: 2em;
+    font-weight: 400;
+    margin-top: 0;
+  }
+
 .buttons nav ul {
     margin: 0px;
     padding: 0px;
@@ -66,7 +79,7 @@ main{
     padding: 9px;
 }
 
-.bio {
+/* .bio {
     background-color: rgb(0, 0, 0);
     width: 200%;
     left: -50%;
@@ -78,20 +91,7 @@ main{
     transform: rotate(-4deg);
     margin: 0px;
     padding: 100px 30px;
-}
-
-.button{
-    border: 1px solid yellow;
-    transform: rotate(4deg);
-    width: 10%;
-    padding: 11px;
-    right: 31px;
-    position: relative;
-    cursor: pointer;
-    background: rgb(255, 255, 255);
-    font: 14px sans-serif;
-    color: black;
-}
+} */
 
 .bio span p {
     color: rgb(243, 243, 243);
@@ -168,11 +168,34 @@ dt a:hover {
 }
 
 
-.bottom {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+.button {
+    border: 1px solid #eee;
+    border-radius: 50px;
+    box-shadow: rgba(0, 12, 32, .04) 0 0 1px 0, rgba(10, 31, 68, .1) 0 3px 4px 0;
+    height: 50px;
+    line-height: 50px;
+    margin-top: .7em;
+    padding: 0 25px;
+    text-decoration: none;
+    will-change: transform;
+  }
+
+  .demo-btn {
+    cursor: pointer;
+    display: none;
+    transition: all 200ms;
+  }
+
+  .demo-btn:hover {
+    background-color: #afe6c3;
+    transform: scale(1.05);
+  }
+  
+  .demo-btn.second {
+    background-color: #292b36;
+    color: #fff;
+    margin-left: 0;
+  }
 
 #support_main, #blog {
     display: flex;
@@ -248,3 +271,28 @@ dt a:hover {
     position: relative;
     overflow: hidden;
   }
+
+.inherited-styles-for-exported-element {
+  color: #333;
+  font-family: CerebriSans-Regular, -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
+  font-size: 100%;
+}
+
+@media screen and (min-width: 1024px) {
+  .demo-btn {
+    display: inline-block;
+  }
+}
+
+.button svg {
+  margin-right: .5em;
+}
+
+.svg-inline--fa.fa-w-18 {
+  width: 1.125em;
+}
+
+svg:not(:root).svg-inline--fa {
+  overflow: visible;
+}
+  
