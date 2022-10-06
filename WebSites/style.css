@@ -1,6 +1,7 @@
 body {
     margin: 0px;
     background-color: rgb(255, 255, 255);
+    font-family: CerebriSans-Regular, -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
 }
 
 .buttons nav ul a {
@@ -10,6 +11,29 @@ body {
 .style_logo{
     height: 50px;
     display: block;
+}
+
+a {
+    text-decoration: none;   
+}
+
+p {
+    margin: 0%;
+}
+
+.inline {
+    text-decoration: none;
+    margin: 0%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.inline h4 {
+    font-family: CerebriSans-Bold, -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
+    font-size: 2em;
+    margin: 9% 0%;
+    color: #f0ea4d;
 }
 
 ul li:active, dt a, .button {
@@ -34,16 +58,14 @@ ul li:active, dt a, .button {
 
 .inherited-styles-for-exported-element {
     color: #333;
-    font-family: CerebriSans-Regular, -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
     font-size: 100%;
   }
   
-  h3 {
-    font-family: CerebriSans-Bold, -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
+h3 {
     font-size: 2em;
     font-weight: 400;
     margin-top: 0;
-  }
+}
 
 .buttons nav ul {
     margin: 0px;
@@ -64,14 +86,16 @@ main, footer {
 }
 
 main{
-    text-align: center;
+    text-align: center; 
     overflow: hidden;
+    margin: 0% 6.5%;
 }
 
 .heaading_img {
     padding: 80px;
     margin:40px;
     height: 330px;
+    border-radius: 50%;
 }
 
 .logo {
@@ -79,6 +103,62 @@ main{
     padding: 9px;
 }
 
+.home {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    min-height: 100vh;
+    align-items: center;
+  }
+  .home #particles-js {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+  }
+  .home::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+  }
+  .home .content {
+    flex: 1 1 40rem;
+    padding-top: 1rem;
+    z-index: 1;
+  }
+
+.introduction {
+  height: 100vh;
+}
+
+.what {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 0px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.what p {
+    font-size: 40px;
+    font-weight:600;
+}
+
+.intro {
+    line-height: 1.4375;
+    font-size: 14px;
+    line-height: 1.4375;
+}
+
+.caption {
+    color: #f0ea4d;
+}
 .bio span p {
     color: rgb(243, 243, 243);
     margin: 0px;
